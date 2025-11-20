@@ -30,23 +30,5 @@ It loads a UML diagram from a string, generates a PNG image using PlantUML, and 
     <artifactId>plantuml</artifactId>
     <version>1.2023.13</version>
 </dependency>
-
-<!-- Optional: improved PNG/SVG rendering -->
-<dependency>
-    <groupId>org.apache.xmlgraphics</groupId>
-    <artifactId>batik-all</artifactId>
-    <version>1.17</version>
-</dependency>
 ```
-
-## ▶️ Running
-
-Compile and run:
-
-```bash
-javac *.java
-java Example
-```
-
-You should see a window displaying the UML class diagram.
 
