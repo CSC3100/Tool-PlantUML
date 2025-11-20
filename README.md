@@ -18,10 +18,6 @@ It loads a UML diagram from a string, generates a PNG image using PlantUML, and 
 - `Example.java` — main application window  
 - `UMLPanel.java` — panel that renders and displays the PlantUML image  
 
-## 🔧 Requirements
-- Java 8 or newer  
-- Maven (if using `pom.xml`)  
-
 ## 📦 Maven Dependencies
 
 ```xml
