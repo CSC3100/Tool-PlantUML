@@ -6,7 +6,6 @@ It loads a UML diagram from a string, generates a PNG image using PlantUML, and 
 
 <img width="403" height="390" alt="Screenshot 2025-11-20 at 2 20 06 PM" src="https://github.com/user-attachments/assets/82111c97-b170-4d0f-993e-ff6f36a66dac" />
 
-
 ## 🚀 Features
 - Render PlantUML diagrams without external tools  
 - Display diagrams inside a Swing `JPanel`  
