@@ -15,8 +15,8 @@ It loads a UML diagram from a string, generates a PNG image using PlantUML, and 
 - Scrollable view for large diagrams  
 
 ## 📁 Project Files
-- `Example.java` — main application window  
-- `UMLPanel.java` — panel that renders and displays the PlantUML image  
+- `Driver.java` — main application window  
+- `DiagramPanel.java` — panel that renders and displays the PlantUML image  
 
 ## 📦 Maven Dependencies
 
