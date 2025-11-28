@@ -1,22 +1,25 @@
 
-A Java Swing application renders PlantUML diagrams directly inside a GUI window.  
-It loads a UML diagram from a string, generates a PNG image using PlantUML, and displays it inside a scrollable panel.
+This lightweight Java Swing application renders PlantUML diagrams directly inside a GUI window.  
+It takes a UML source string, generates a PNG image using PlantUML, and displays it in a scrollable panel—no external tools or file generation required.
 
 <p align="center">
 <img width="512" height="412" alt="Screenshot 2025-11-28 at 3 58 08 AM" src="https://github.com/user-attachments/assets/601898d1-7265-4e4a-9116-76ce09b19591" />
 </p>
 
 ## 🚀 Features
-- Render PlantUML diagrams without external tools  
-- Display diagrams inside a Swing `JPanel`  
-- Automatic image sizing  
-- Scrollable view for large diagrams  
+- Render PlantUML diagrams **entirely in memory**  
+- Display the generated diagram inside a Swing `JPanel`  
+- **Automatic sizing** based on the diagram resolution  
+- **Scrollable viewer** for large diagrams  
+- Zero temporary files — everything stays in RAM  
 
-## 📁 Project Files
-- `Driver.java` — main application window  
-- `DiagramPanel.java` — panel that renders and displays the PlantUML image  
+## 📁 Project Structure
+This project consists of two files:
 
-## 📦 Maven Dependency
+- **`Driver.java`** — Application entry point and main window  
+- **`DiagramPanel.java`** — Component that renders and displays the PlantUML output  
+
+## 📦 PlantUML Dependency (Maven)
 
 ```xml
 <dependency>
@@ -24,5 +27,3 @@ It loads a UML diagram from a string, generates a PNG image using PlantUML, and 
     <artifactId>plantuml</artifactId>
     <version>1.2023.13</version>
 </dependency>
-```
-
