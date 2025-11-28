@@ -1,7 +1,5 @@
 
-# PlantUML Swing Viewer
-
-This simple Java Swing application renders PlantUML diagrams directly inside a GUI window.  
+A Java Swing application renders PlantUML diagrams directly inside a GUI window.  
 It loads a UML diagram from a string, generates a PNG image using PlantUML, and displays it inside a scrollable panel.
 
 <p align="center">
