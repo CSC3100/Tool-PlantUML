@@ -18,7 +18,7 @@ It loads a UML diagram from a string, generates a PNG image using PlantUML, and 
 - `Driver.java` — main application window  
 - `DiagramPanel.java` — panel that renders and displays the PlantUML image  
 
-## 📦 Maven Dependencies
+## 📦 Maven Dependency
 
 ```xml
 <dependency>
